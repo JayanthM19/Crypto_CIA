@@ -94,6 +94,42 @@ Data Tampered
 
 ---
 
+## 🧪 Worked Examples
+
+### ✅ Example 1
+
+**Input:**
+Plaintext: hello
+
+**Output:**
+Hash: 2cf24dba5fb0a30e...
+Cipher Text: 2dg35ecb5gc0b41f...
+Decrypted Hash: 2cf24dba5fb0a30e...
+Verification: Data Integrity Verified
+
+
+---
+
+### ✅ Example 2
+
+**Input:**
+Plaintext: world
+
+**Output:**
+Hash: 486ea46224d1bb4f...
+Cipher Text: 597fb57335e2cc5g...
+Decrypted Hash: 486ea46224d1bb4f...
+Verification: Data Integrity Verified
+
+
+---
+
+## 🔁 Round-Trip Verification
+
+This project demonstrates:
+Encrypt → Hash → Decrypt → Compare
+---
+
 ### Step 8: End
 
 ---
